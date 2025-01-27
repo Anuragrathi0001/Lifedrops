@@ -4,6 +4,7 @@ import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link, NavLink } from "react-router-dom";
 
+import logo from "../../../../public/lifedrops.png"
 import BlackLogo from "../../../../public/HemoCell Logo black.png";
 import WhiteLogo from "../../../../public/HemoCell Logo White.png";
 
@@ -54,7 +55,7 @@ const HeaderComponent = () => {
 				<div className="flex lg:flex-1">
 					<a href="/" className="-m-1.5 p-1.5">
 						<span className="sr-only">{compnayName}</span>
-						<img className="w-auto h-10" src={WhiteLogo} alt="" />
+						<img className=" h-14 w-14" src={logo} alt="" />
 					</a>
 				</div>
 

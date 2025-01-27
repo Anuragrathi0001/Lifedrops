@@ -92,28 +92,29 @@ const ContactPage = () => {
 	];
 
 	const contactDetails = [
-		{
-			key: "phone",
-			stepNumber: <FaPhoneAlt />,
-			stepName: "Phone",
-			stepDescription: "(+92)-333-123-4567",
-			stepUrl: "tel:+923331234567",
-		},
-		{
-			key: "email",
-			stepNumber: <MdEmail />,
-			stepName: "Email",
-			stepDescription: "help@hemocell.com",
-			stepUrl: "mailto:help@hemocell.com",
-		},
-		{
-			key: "address",
-			stepNumber: <FaMapMarkerAlt />,
-			stepName: "Address",
-			stepDescription: "Karachi, Sindh, Pakistan",
-			stepUrl: "https://goo.gl/maps/sszR4K9aDKuYfy2Y8",
-		},
-	];
+    {
+      key: "phone",
+      stepNumber: <FaPhoneAlt />,
+      stepName: "Phone",
+      stepDescription: "+91 9719472233",
+      stepUrl: "tel:+91 8650489767",
+    },
+    {
+      key: "email",
+      stepNumber: <MdEmail />,
+      stepName: "Email",
+      stepDescription: "help_lifedrops@gmail.com",
+      stepUrl: "mailto:help_lifedrops@gmail.com",
+    },
+    {
+      key: "address",
+      stepNumber: <FaMapMarkerAlt />,
+      stepName: "Address",
+      stepDescription: "Alpha 1,gautambudh nagar,greater noida",
+      stepUrl:
+        "https://www.google.com/maps/dir//Alpha+1,+Block+E,+Alpha+I,+Greater+Noida,+Uttar+Pradesh/@28.4723306,77.5114879,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x390cea7e6f255555:0x962896a30b7f922d!2m2!1d77.5140181!2d28.4723714!3e0?entry=ttu&g_ep=EgoyMDI1MDEyMi4wIKXMDSoASAFQAw%3D%3D",
+    },
+  ];
 
 	return (
 		<>
